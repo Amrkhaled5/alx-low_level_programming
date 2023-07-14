@@ -7,7 +7,8 @@
  *        it is positive, negative, or zero.
  *
  * Return:  0 (success)
-*/
+ */
+
 int main(void)
 {
 	int n;
