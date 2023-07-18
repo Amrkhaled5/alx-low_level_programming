@@ -3,7 +3,7 @@
 /**
  * print_alphabet - print all alphabet in lowercase
  * this function takes no parameters and returns no values.
- */
+*/
 
 void print_alphabet(void)
 {
