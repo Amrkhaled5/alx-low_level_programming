@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-*main - function prints text as output
-*
-*Return:return 0
-*/
+ * print_alphabet - print all alphabet in lowercase
+ * this function takes no parameters and returns no values.
+ */
 
 void print_alphabet(void)
 {
-	int c;
+	char c;
+	
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
 	_putchar('\n');
