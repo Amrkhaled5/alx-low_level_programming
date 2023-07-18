@@ -1,8 +1,7 @@
 /**
-*print_alphabet - function that print alphabet
-*it prints in lowercase
-*Return: no return
-*/
+ * print_alphabet - print all chars
+ * this fun takes no parameters and returns no values.
+ */
 #include "main.h"
 void print_alphabet(void)
 {
