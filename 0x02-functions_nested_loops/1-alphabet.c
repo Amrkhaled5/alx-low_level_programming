@@ -1,14 +1,14 @@
-/**
- * print_alphabet - print all chars
- * this fun takes no parameters and returns no values.
- */
 #include "main.h"
+
+/**
+ * print_alphabet - utilitizes on the _putchar function
+ *  asdasd asd
+ */
+
 void print_alphabet(void)
 {
-int letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-{
-_putchar (letter);
-}
-_putchar (10);
+	int c;
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
