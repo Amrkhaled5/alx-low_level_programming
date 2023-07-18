@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet - utilitizes on the _putchar function
- *  asdasd asd
- */
+*main - function prints text as output
+*
+*Return:return 0
+*/
 
 void print_alphabet(void)
 {
