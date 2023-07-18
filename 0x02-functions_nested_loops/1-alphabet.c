@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - utilitizes on the _putchar function
- *  asdasd asd
+ * print_alphabet - prints
  */
-
 void print_alphabet(void)
 {
-	int c;
+	char c;
+	
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
 	_putchar('\n');
