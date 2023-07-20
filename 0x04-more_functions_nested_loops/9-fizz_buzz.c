@@ -1,35 +1,29 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main -  checks for checks for a digit (0 through 9).
- * Return: Always 0.
- */
+ * main - print 1 - 100
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int x;
+	int num;
 
-	for (x = 1; x <= 100; x++)
+	for (num = 1; num <= 100; num++)
 	{
-		if (x % 3 == 0 || x % 5 == 0)
-		{
-			if (x % 3 == 0)
-			{
-				printf("Fizz");
-			}
-			if (x % 5 == 0)
-			{
-				printf("Buzz");
-			}
-		}
+		if (num % 3 == 0 && !(num % 5 == 0))
+			printf("Fizz");
+		else if (num % 5 == 0 && !(num % 3 == 0))
+			printf("Buzz");
+		else if (num % 3 == 0 && num % 5 == 0)
+			printf("FizzBuzz");
 		else
-		{
-			printf("%d", x);
-		}
-		if (x != 100)
-		{
-		putchar(' ');
-		}
+			printf("%d", num);
+		if (num != 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
-	putchar('\n');
 	return (0);
 }
