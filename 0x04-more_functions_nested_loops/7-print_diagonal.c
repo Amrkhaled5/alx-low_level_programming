@@ -4,6 +4,8 @@
  * print_diagonal - print line
  *
  * @n: is number of times
+ *
+ * Return: Always 0.
 */
 
 void print_diagonal(int n)
